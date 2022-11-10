@@ -1,0 +1,86 @@
+nav#menu-top {
+    height: 100px;
+}
+
+nav#menu-top .navbar-nav .nav-item .nav-link {
+    color: white;
+    font-size: 13pt;
+}
+
+.img-post {
+    margin-right: 10px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+
+.img-post figcaption{
+    display: none;
+}
+
+.img-post:hover figcaption{
+    display: block;
+    position: absolute;
+    height: 50%;
+    background: rgba(0, 255, 0, 0.3);
+    color: white;
+    width: 100%;
+    bottom: 0;
+    padding: 8px;
+    transition: all 0.3s;
+}
+
+
+.img-post img {
+    border-radius: 15px;
+    width: 100%;
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.img-post:hover img {
+    transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+}
+
+.card {
+    border: unset;
+}
+
+.card img {
+    border-radius: 15px;
+}
+
+.card .card-img-overlay .card-text{
+    display: none;
+}
+
+.card:hover .card-img-overlay .card-text{
+    display:block;
+}
+.multi-card:hover figure{
+    display: block;
+    background:rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    color: #172b4d;
+    font-size: 20px;
+}
+article h1 {
+    font-size: 50px;
+}
+
+article h2 {
+    font-size: 36px;
+}
